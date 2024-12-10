@@ -1,0 +1,116 @@
+Entendido! Vou ajustar o código para que o máximo seja 12 passos. Aqui está a versão revisada:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Como Começar Bem na Academia</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 - Introdução -->
+        <div class="passo ativo" id="passo-0">
+            <img src="academia-inicio.png" alt="Começo na Academia" srcset="">
+            <p>Você decide finalmente começar a se exercitar e entrar na academia. Mas como começar? Aqui estão algumas opções para começar sua jornada de fitness!</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a academia local</button>
+            <button class="btn-proximo" data-proximo="2">Fazer planos para começar amanhã</button>
+        </div>
+
+        <!-- Passo 1 - Primeira visita à academia -->
+        <div class="passo" id="passo-1">
+            <p>Você chega à academia, sentindo um pouco de nervosismo. O que fazer primeiro?</p>
+            <button class="btn-proximo" data-proximo="3">Ir direto para a musculação</button>
+            <button class="btn-proximo" data-proximo="4">Experimentar a aula de spinning</button>
+        </div>
+
+        <!-- Passo 2 - Encontro com um treinador -->
+        <div class="passo" id="passo-2">
+            <p>Você decide pedir ajuda a um treinador para saber por onde começar. Ele sugere:</p>
+            <button class="btn-proximo" data-proximo="5">Fazer um treino de força</button>
+            <button class="btn-proximo" data-proximo="6">Fazer um treino aeróbico</button>
+        </div>
+
+        <!-- Passo 3 - Musculação ou Cardio -->
+        <div class="passo" id="passo-3">
+            <p>Você escolhe a musculação! A primeira série de exercícios não foi fácil, mas você se sente motivado. O que fazer agora?</p>
+            <button class="btn-proximo" data-proximo="7">Continuar o treino de força</button>
+            <button class="btn-proximo" data-proximo="8">Desafiar-se com mais peso</button>
+        </div>
+
+        <!-- Passo 4 - Aula de Spinning -->
+        <div class="passo" id="passo-4">
+            <p>A aula de spinning foi intensa, mas você conseguiu acompanhar. Está se sentindo mais confiante. O que fazer agora?</p>
+            <button class="btn-proximo" data-proximo="7">Fazer mais aulas de spinning</button>
+            <button class="btn-proximo" data-proximo="8">Experimentar outro tipo de aula</button>
+        </div>
+
+        <!-- Passo 5 - Treino de força -->
+        <div class="passo" id="passo-5">
+            <p>Você começou a ver os primeiros resultados no treino de força. Sua motivação está em alta!</p>
+            <button class="btn-proximo" data-proximo="9">Adicionar mais exercícios</button>
+            <button class="btn-proximo" data-proximo="10">Focar em resistência</button>
+        </div>
+
+        <!-- Passo 6 - Treino aeróbico -->
+        <div class="passo" id="passo-6">
+            <p>O treino aeróbico está te ajudando a perder peso e melhorar seu condicionamento físico. O que você faz agora?</p>
+            <button class="btn-proximo" data-proximo="9">Aumentar a intensidade do cardio</button>
+            <button class="btn-proximo" data-proximo="10">Mudar para um treino de HIIT</button>
+        </div>
+
+        <!-- Passo 7 - Superando os desafios -->
+        <div class="passo" id="passo-7">
+            <p>Você superou os desafios do início e se sente mais forte e saudável. Agora, é hora de criar um plano de longo prazo!</p>
+            <button class="btn-proximo" data-proximo="11">Montar uma rotina semanal de treino</button>
+            <button class="btn-proximo" data-proximo="12">Estabelecer metas mensais</button>
+        </div>
+
+        <!-- Passo 8 - Experimentando novas aulas -->
+        <div class="passo" id="passo-8">
+            <p>Você decide se aventurar em novas aulas, como pilates ou yoga, para melhorar a flexibilidade e relaxar.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar mais aulas de flexibilidade</button>
+            <button class="btn-proximo" data-proximo="12">Ir para aulas de meditação</button>
+        </div>
+
+        <!-- Passo 9 - Planos de longo prazo -->
+        <div class="passo" id="passo-9">
+            <p>Você já está mais consistente na academia e agora quer seguir com um plano a longo prazo. Continue se esforçando!</p>
+            <button class="btn-proximo" data-proximo="13">Manter a rotina por 6 meses</button>
+            <button class="btn-proximo" data-proximo="14">Focar na nutrição e recuperação</button>
+        </div>
+
+        <!-- Passo 10 - Foco em resultados -->
+        <div class="passo" id="passo-10">
+            <p>Você se dedicou à dieta e à recuperação. Agora, os resultados estão aparecendo!</p>
+            <button class="btn-proximo" data-proximo="13">Celebrar os resultados com uma recompensa</button>
+            <button class="btn-proximo" data-proximo="14">Desafiar-se com mais metas de treino</button>
+        </div>
+
+        <!-- Passo 11 - Definindo uma rotina de treino -->
+        <div class="passo" id="passo-11">
+            <p>Agora que você tem uma rotina de treino bem definida, continue a manter sua disciplina!</p>
+            <button class="btn-proximo" data-proximo="12">Compartilhar seu progresso com amigos</button>
+        </div>
+
+        <!-- Passo 12 - Final -->
+        <div class="passo" id="passo-12">
+            <p>Você alcançou seus objetivos na academia e continua a manter a disciplina. O que virá a seguir? Novos desafios esperam por você!</p>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+</body>
+</html>
